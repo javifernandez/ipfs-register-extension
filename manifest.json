@@ -1,0 +1,14 @@
+{
+    "name": "register-ipfs-protocol",
+    "description" : "Register a HTTP gateway for IPFS",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background1.js"
+    },
+    "web_accessible_resources": [
+    {
+        "resources": [ "register.html" ],
+        "extension_ids": ["*"]
+    }
+}
