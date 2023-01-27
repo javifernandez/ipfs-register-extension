@@ -4,11 +4,12 @@
     "version": "1.0",
     "manifest_version": 3,
     "background": {
-        "service_worker": "background1.js"
+        "service_worker": "background.js"
     },
     "web_accessible_resources": [
-    {
-        "resources": [ "register.html" ],
-        "extension_ids": ["*"]
-    }
+        {
+            "resources": [ "register.html" ],
+            "extension_ids": ["*"]
+        }
+    ]
 }
